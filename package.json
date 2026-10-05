@@ -1,0 +1,32 @@
+{
+  "name": "mcpscan",
+  "version": "0.2.0",
+  "description": "Security auditor for MCP servers - detect prompt-injection surfaces, overprivileged tools, data exfiltration and supply-chain risks before your agent runs them. JS/TS + Python.",
+  "main": "src/scanner.js",
+  "bin": {
+    "mcpscan": "bin/mcpscan.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "security",
+    "audit",
+    "prompt-injection",
+    "supply-chain",
+    "static-analysis",
+    "ai-agents",
+    "sast"
+  ],
+  "author": "shaoshi",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaoshi20/mcpscan.git"
+  }
+}
